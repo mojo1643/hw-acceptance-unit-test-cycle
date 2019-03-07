@@ -1,0 +1,28 @@
+
+MoviesController
+.  searches movies from the same director
+.  handle when no director is present
+.  renders index
+.  renders show details
+.  creates a movie
+.  edits a movie
+.  deletes a movie
+.  should redirect to #<Movie id: 5, title: "Alien", rating: "R", description: nil, release_date: nil, created_at: "2019-03-07 17:31:16", updated_at: "2019-03-07 17:31:16", director: "Ridley Scott">
+.  should eql "Alien"
+.  should eql "Ridley Scott"
+.  should eql "R"
+
+Movie
+.  should find movies with the same director
+
+
+1 deprecation warning total
+
+Finished in 0.22152 seconds (files took 1.59 seconds to load)
+12 examples, 0 failures
+
+Finished in 0.22152 seconds (files took 1.59 seconds to load)
+12 examples, 0 failures
+
+
+Coverage report generated for RSpec to /home/ec2-user/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 44 / 54 LOC (81.48%) covered.
